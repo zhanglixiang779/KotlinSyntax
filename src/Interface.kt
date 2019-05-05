@@ -5,6 +5,7 @@ interface MyInterface {
     val propertyWithImplementation: String
         get() = "foo"
 
+    //open by default for interface, but final by default for abstract class
     fun foo() {
         println(prop)
         println(propertyWithImplementation)
