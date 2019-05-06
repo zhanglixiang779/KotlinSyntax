@@ -1,6 +1,7 @@
+open class Super()
 
-
-data class Dog(val name: String) {
+//data class can extend other classes including seald class
+data class Dog(val name: String) : Super() {
     var age: Int = 0
 }
 fun main(args: Array<String>) {
